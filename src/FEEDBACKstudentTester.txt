@@ -1,0 +1,105 @@
+19-February-2022 12:02:53---Student: you
+19-February-2022 12:02:53----Code compilesPASS
+Launch Suite:
+  19-February-2022 12:02:53----Process exits shell with correct return code:OK
+  19-February-2022 12:02:54----Shell message is displayed:NOT OK
+Result:FAIL
+Unknown Command Message:
+  19-February-2022 12:02:55----Unknown command should display corresponding message:OK
+  19-February-2022 12:02:56----Multiple unknown commands:OK
+Result:PASS
+Long Command Message:
+  19-February-2022 12:02:57----Long command input is invalid:NOT OK
+  19-February-2022 12:02:58----Long command message takes priority:NOT OK
+Result:FAIL
+Echo Simple Messages:
+  19-February-2022 12:02:59----Echo of one character displays correctly:OK
+  19-February-2022 12:03:00----Echo of simple message displays correctly:OK
+  19-February-2022 12:03:01----Echo of simple message displays correctly v3:OK
+  19-February-2022 12:03:02----Echo of simple message displays correctly v3:OK
+  19-February-2022 12:03:03----Echo of simple message does not show errors:OK
+Result:PASS
+Echo Special Characters:
+  19-February-2022 12:03:04----Echo of mixed message displays correctly:OK
+  19-February-2022 12:03:05----echo with quotes has no special meaning:OK
+  19-February-2022 12:03:06----echo ignores extra spaces:OK
+Result:PASS
+Multiple Commands:
+  19-February-2022 12:03:07----Two echo commands display correctly:OK
+  19-February-2022 12:03:08----Two echo commands do not show error:OK
+  19-February-2022 12:03:09----Echo commands work while other commands error:OK
+Result:PASS
+Simple variables accesses:
+  19-February-2022 12:03:10----Declare and access a single variable:NOT OK
+  19-February-2022 12:03:11----Declare and access a single variable:NOT OK
+Result:FAIL
+Variable integration with other commands:
+  19-February-2022 12:03:12----Declare a single variable:NOT OK
+  19-February-2022 12:03:13----Declare and access two variables:NOT OK
+Result:FAIL
+Custom variable accesses:
+  19-February-2022 12:03:14----Access variables in separate lines:NOT OK
+  19-February-2022 12:03:15----Access variables in separate lines v2:NOT OK
+Result:FAIL
+Echo without variables displays plain text:
+  19-February-2022 12:03:16----Variables access with $ is bound to name:NOT OK
+  19-February-2022 12:03:17----Non-existing variable displays as plain text:NOT OK
+Result:FAIL
+Variable values can be redefined:
+  19-February-2022 12:03:18----Variable value is redefined appropriately:NOT OK
+  19-February-2022 12:03:19----Variable value is redefined appropriately v2:NOT OK
+Result:FAIL
+Variable formatting edge cases:
+  19-February-2022 12:03:20----Variables accesses separate by the first equal:NOT OK
+  19-February-2022 12:03:21----Variable declaration with spaces is not supported:NOT OK
+Result:FAIL
+Advanced tests:
+  19-February-2022 12:03:22----Declare and access 100 variables:NOT OK
+Result:FAIL
+correct cat argument setup:
+  19-February-2022 12:03:26----Cat on a file that contains one word:OK
+  19-February-2022 12:03:27----cat without a file reports an error:NOT OK
+Result:FAIL
+cat correctly reads sample files:
+  19-February-2022 12:03:28----Cat on a file that contains multiple words:OK
+  19-February-2022 12:03:29----Cat on a file that contains multiple lines:OK
+Result:PASS
+correct wc argument setup:
+  19-February-2022 12:03:30----wc on an empty file:NOT OK
+  19-February-2022 12:03:31----wc without a filename reports an error:NOT OK
+Result:FAIL
+wc reports correct counts on sample files:
+  19-February-2022 12:03:32----wc on a file that contains mutliple lines:NOT OK
+  19-February-2022 12:03:34----wc on a file that contains mutliple words in a line:NOT OK
+  19-February-2022 12:03:35----wc on a file that contains blank lines:NOT OK
+Result:FAIL
+Sample ls runs:
+  19-February-2022 12:03:36----Create a single sub-directory with a single file:NOT OK
+  19-February-2022 12:03:37----Create a single sub-directory with multiple files:NOT OK
+  19-February-2022 12:03:38----ls a directory:NOT OK
+Result:FAIL
+Sample cd runs:
+  19-February-2022 12:03:39----cd into a directory and display the files:NOT OK
+  19-February-2022 12:03:40----cd into a nested directory and display the files:NOT OK
+Result:FAIL
+ls error handling:
+  19-February-2022 12:03:41----ls on an invalid path reports an error:NOT OK
+Result:FAIL
+ls handles edge cases correctly:
+  19-February-2022 12:03:42----ls a single file through a variable identifier:NOT OK
+  19-February-2022 12:03:43----Create a single sub-directory, and ls into that directory:NOT OK
+Result:FAIL
+ls filters files correctly:
+  19-February-2022 12:03:44----ls correctly filters files:NOT OK
+  19-February-2022 12:03:45----ls correctly filters files v2:NOT OK
+Result:FAIL
+Recursive ls displays files correctly:
+  19-February-2022 12:03:46----Recursive ls with depth 1 does not capture inner files:NOT OK
+  19-February-2022 12:03:47----Recursive ls with depth 2 captures inner files:NOT OK
+  19-February-2022 12:03:48----Recursive ls supports --d argument before --rec:NOT OK
+Result:FAIL
+Advanced Tests:
+  19-February-2022 12:03:49----Recursive ls correctly searches files in sub-directories:NOT OK
+Result:FAIL
+19-February-2022 12:03:50--- Suites Passed 6.0/25.0
+19-February-2022 12:03:50 FINISHED
