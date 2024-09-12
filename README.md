@@ -15,10 +15,10 @@ MyShell is a C program that runs on Linux and mimics the default terminal progra
 
 - C
 
-## Images for our application (logos blocked for security purposes):
+## Images for our application:
 
 **Key File Management Commands**:
-<img src=./img/1.png alt="Custom Size 3" width="1000"/>
+<img src=./img/1.png alt="Custom Size 3" width="500"/>
 
 
 
